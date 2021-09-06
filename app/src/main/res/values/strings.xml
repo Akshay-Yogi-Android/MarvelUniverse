@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_characters">Characters</string>
+    <string name="title_comic">Comics</string>
+
+    
+    <string name="menu_this_week">Released this week</string>
+    <string name="menu_last_week">Released last week</string>
+    <string name="menu_next_week">Released next week</string>
+    <string name="menu_this_month">Released this month</string>
+    
+</resources>

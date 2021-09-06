@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_character">
+
+    <fragment
+        android:id="@+id/navigation_character"
+        android:name="com.marvel.Fragments.CharacterFragment"
+        android:label="@string/title_characters"
+        tools:layout="@layout/fragment_character" />
+
+    <fragment
+        android:id="@+id/navigation_comic"
+        android:name="com.marvel.Fragments.ComicFragment"
+        android:label="@string/title_comic"
+        tools:layout="@layout/fragment_comic" />
+
+
+</navigation>
